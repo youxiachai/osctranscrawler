@@ -1,1 +1,1 @@
-bae redis http client
+oschina translation channel page parser
