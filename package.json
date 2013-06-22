@@ -7,7 +7,7 @@
         "name": "youxiachai",
         "mail": "youxiachai@gmail.com"
     },
-    "homepage": "http://blog.gfdsa.net",
+    "homepage": "https://github.com/youxiachai/osctranscrawler.git",
     "dependencies": {
         "cheerio": "*",
         "request": "*",
@@ -20,17 +20,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
-    },
-    "bin": {
-
+        "url": "git@github.com:youxiachai/osctranscrawler.git"
     },
     "engines": {
         "node": "*"
     },
     "readmeFilename": "readme.md",
     "bugs": {
-        "url": ""
+        "url": "https://github.com/youxiachai/osctranscrawler/issues"
     }
 
 }
