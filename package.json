@@ -1,13 +1,13 @@
 {
     "main": "index.js",
-    "name": "oscTranslateCrawler",
-    "version": "0.0.1",
+    "name": "osctranslatecrawler",
+    "version": "0.0.2",
     "description": "oscTranslateCrawler",
     "author": {
         "name": "youxiachai",
         "mail": "youxiachai@gmail.com"
     },
-    "homepage": "https://github.com/youxiachai/osctranscrawler.git",
+    "homepage": "https://github.com/youxiachai/osctranscrawler",
     "dependencies": {
         "cheerio": "*",
         "request": "*",
@@ -20,7 +20,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:youxiachai/osctranscrawler.git"
+        "url": "https://github.com/youxiachai/osctranscrawler.git"
     },
     "engines": {
         "node": "*"

@@ -18,7 +18,11 @@ var fs = require('fs');
  */
 var dowloadTestList = function(type, page){
     var listUrl = 'http://www.oschina.net/translate/list?type='+ type +'&p=' + page;
-    request.get(listUrl).pipe(fs.createWriteStream(__dirname + '/testlist.html'));
+    request.get(listUrl,function(err, response, body){
+            if(err){
+                console.log(err);
+            }
+    }).pipe(fs.createWriteStream(__dirname + '/testlist.html'));
 }
 
 /**
