@@ -1,0 +1,37 @@
+{
+    "main": "index.js",
+    "name": "oscTranslateCrawler",
+    "version": "0.0.1",
+    "description": "oscTranslateCrawler",
+    "author": {
+        "name": "youxiachai",
+        "mail": "youxiachai@gmail.com"
+    },
+    "homepage": "http://blog.gfdsa.net",
+    "dependencies": {
+        "cheerio": "*",
+        "request": "*",
+        "mkdirp": "*"
+    },
+
+    "keywords": [
+        "ocschina",
+        "translation"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bin": {
+
+    },
+    "engines": {
+        "node": "*"
+    },
+    "readmeFilename": "readme.md",
+    "bugs": {
+        "url": ""
+    }
+
+}
+
