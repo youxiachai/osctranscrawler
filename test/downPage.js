@@ -36,5 +36,5 @@ var downloadTestPage = function(pageUrl){
 
 }
 
-//dowloadTestList(2, 1);
-downloadTestPage('http://www.oschina.net/translate/85-operational-rules');
+dowloadTestList(2, 1);
+//downloadTestPage('http://www.oschina.net/translate/85-operational-rules');
