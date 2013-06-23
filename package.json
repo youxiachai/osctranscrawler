@@ -1,7 +1,7 @@
 {
     "main": "index.js",
     "name": "osctranslatecrawler",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "oscTranslateCrawler",
     "author": {
         "name": "youxiachai",
