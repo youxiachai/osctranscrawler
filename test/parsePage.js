@@ -23,10 +23,11 @@ var listTitleUrl = function () {
 };
 
 var articleConvert = function () {
-    var imgDb = new Array();
+
     var article = fs.readFileSync(__dirname + '/85-operational-rules.html').toString();
-    parser.parseArticle(article, imgDb, function (result, db) {
+    parser.parseArticle(article, function (result, db) {
         // fs.writeFileSync(__dirname+ '/parseArticle.html', result);
+        console.log(result);
         console.log(db);
     });
 }
@@ -56,10 +57,10 @@ var imageDownload = function () {
 }
 
 
-//listConvert();
+listConvert();
 
 //listTitleUrl();
 
 //articleConvert();
 
-imageDownload();
+//imageDownload();
