@@ -45,7 +45,13 @@ var imageDownload = function () {
         'http://static.oschina.net/uploads/user/3/6973_50.jpg?t=1370442993000' ];
     var dir = __dirname + '/image/';
 
-    parser.pageImgDownload(imageDb, dir);
+    parser.pageImgDownload(imageDb, dir, function(err, successUrl){
+        if(err){
+            console.log(err);
+        }else{
+            console.log(successUrl);
+        }
+    });
 
 }
 
